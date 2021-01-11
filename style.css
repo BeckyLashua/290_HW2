@@ -5,3 +5,8 @@ table {
 th, td {
   border-style: solid;
 }
+
+.col-headers {
+  font-style: italic;
+  font-weight: normal;
+}
