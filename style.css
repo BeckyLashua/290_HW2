@@ -10,3 +10,19 @@ th, td {
   font-style: italic;
   font-weight: normal;
 }
+
+.outer-content {
+  background-color: pink;
+  width: 75%;
+  height: 50px;
+  left: 0px;
+  margin-top: 20px;
+}
+
+.inner-content {
+  background-color: #4DFFFF;
+  width: 75%;
+  height: 50%;  
+  text-align: center;
+  margin: auto;
+}
