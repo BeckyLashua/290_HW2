@@ -17,14 +17,25 @@ th, td {
   height: 50px;
   left: 0px;
   margin-top: 20px;
+  position: relative;
 }
 
+/* For positioning the inner div both horizontally and 
+vertically I used this resource as a reference:
+https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/
+transform is used to replicated the method of using
+negative margins to center the inner-content div from the 
+actual center of the div and not the original margin-left 
+and margin-top locations. */
 .inner-content {
   background-color: #4DFFFF;
   width: 75%;
-  height: 25px;;  
+  height: 50%;  
   text-align: center;
-  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
